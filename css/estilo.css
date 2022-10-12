@@ -1,5 +1,13 @@
 /* estilo index */
 
+@media screen and (min-width:700px) and (orientation:landscape) {
+    .menu {
+
+
+        background-color: rgb(223, 241, 241);
+    }
+}
+
 *{
     margin: 0px;
     padding: 0px;
