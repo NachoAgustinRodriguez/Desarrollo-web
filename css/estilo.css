@@ -125,6 +125,31 @@ img {
     padding: 20px;
 }
 
+/* Estilo pagina Camino a la final */
+
+h1 {
+    color: azure;
+
+}
+
+h4 {
+    color: azure;
+}
+
+.cuadro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    padding: 10px;
+
+}
+.camino{ 
+    display: grid;
+    grid-template-columns: 50% 33% ;
+
+}
+
 @media (max-width:1500px) {
 
     .videos {
@@ -135,8 +160,12 @@ img {
 
     .videos iframe {
         width: 600px;
-        
+    }
 
+    .cuadro {
+
+        flex-direction: column;
+        align-items: center;
     }
 
 }
