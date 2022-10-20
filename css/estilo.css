@@ -8,7 +8,7 @@
     }
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -19,6 +19,8 @@ body {
     color: aliceblue;
     display: flex;
     flex-direction: column;
+    background-image: url("../imagenes/fondo-html3.jpg");
+    background-repeat: repeat;
 }
 
 
@@ -61,6 +63,7 @@ span {
     display: flex;
     flex-direction: column;
     color: cornsilk;
+    background-color: black;
 
 }
 
@@ -87,9 +90,17 @@ img {
 .videos {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 50px;
 }
+
+.videos iframe {
+    width: 500px;
+    justify-content: space-around;
+
+
+}
+
 
 /* formulario */
 
@@ -112,4 +123,20 @@ img {
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+
+@media (max-width:1500px) {
+
+    .videos {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .videos iframe {
+        width: 600px;
+        
+
+    }
+
 }
